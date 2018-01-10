@@ -1,0 +1,44 @@
+.report-attachment-html h3.report-entry {
+    text-align: center;
+}
+
+.rowheader {
+    background-color: #f4f4f4 !important;
+}
+
+.HTML-report .l {
+    background-color: #f4f4f4 !important;
+    font-weight: 700 !important;
+}
+
+.HTML-report .table, .HTML-report .Table {
+    border: 1px solid #ccc !important;
+    margin-bottom: 1em !important;
+}
+
+.HTML-report .table *, .HTML-report .Table * {
+    border: 1px solid #ccc !important;
+}
+
+.HTML-report thead * {
+    background-color: #900 !important;
+    color: white !important;
+}
+
+.HTML-report .systitleandfootercontainer * {
+    border: none !important;
+}
+
+.HTML-report .systemtitle, .HTML-report .systemtitle2, 
+  .HTML-report .systemtitle3, .HTML-report .systemtitle4, 
+  .HTML-report .systemtitle5 {
+    opacity: 0.8;
+    font-size: 0.8em;
+}
+
+.HTML-report .SystemTitle, .HTML-report .SystemTitle2, 
+  .HTML-report .SystemTitle3, .HTML-report .SystemTitle4, 
+  .HTML-report .SystemTitle5 {
+    opacity: 0.8;
+    font-size: 0.8em;
+}

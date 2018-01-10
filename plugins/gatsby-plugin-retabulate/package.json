@@ -1,0 +1,9 @@
+{
+  "name": "gatsby-plugin-retabulate",
+  "dependencies": {
+    "retabulate-graphql": "^1.5.2"
+  },
+  "peerDependencies": {
+    "retabulate-react": "^0.9.3"
+  }
+}
