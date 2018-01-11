@@ -14,19 +14,12 @@ class Header extends React.Component {
         <PageWidth>
           <ContentWidth>
             <Left>
-              <Logo
-                to="/"
-                title="The Office of Institutional Research and Assessement"
-              />
+              <Logo to="/" title="Home" />
             </Left>
             <Right>
-              <StyledLink to="/mission/" title="Mission">
-                {'Mission'}
-              </StyledLink>
+              <StyledLink to="/mission/">{'Mission'}</StyledLink>
               {' | '}
-              <StyledLink to="/reports/" title="Reports">
-                {'Reports'}
-              </StyledLink>
+              <StyledLink to="/reports/">{'Reports'}</StyledLink>
               {' | '}
               <StyledAnchor
                 href="http://oira.ua.edu/factbook"
@@ -37,17 +30,11 @@ class Header extends React.Component {
                 {'Factbook'}
               </StyledAnchor>
               {' | '}
-              <StyledLink to="/requests/" title="Requests">
-                {'Requests'}
-              </StyledLink>
+              <StyledLink to="/requests/">{'Requests'}</StyledLink>
               {' | '}
-              <StyledLink to="/staff/" title="Staff">
-                {'Staff'}
-              </StyledLink>
+              <StyledLink to="/staff/">{'Staff'}</StyledLink>
               {' | '}
-              <StyledLink to="/resources/" title="Resources">
-                {'Resources'}
-              </StyledLink>
+              <StyledLink to="/resources/">{'Resources'}</StyledLink>
             </Right>
           </ContentWidth>
         </PageWidth>

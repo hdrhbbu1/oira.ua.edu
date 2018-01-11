@@ -31,9 +31,7 @@ class Footer extends React.Component {
               {'205-348-7200'}
             </StyledObfuscatedLink>
             {' | '}
-            <StyledLink to="/contact/" title="Contact">
-              {'OIRA Contact'}
-            </StyledLink>
+            <StyledLink to="/contact/">{'OIRA Contact'}</StyledLink>
           </RightSide>
         </ContentWidth>
       </PageWidth>
