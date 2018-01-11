@@ -1,26 +1,26 @@
 import React from 'react'
-import Modal from 'react-modal'
+// import Modal from 'react-modal'
 import { Helmet } from 'react-helmet'
 
-const modalStyles = {
-  overlay: {
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: 'RGBA(0, 0, 0, .70)',
-  },
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-    border: '1px solid #000',
-  },
-}
+// const modalStyles = {
+//   overlay: {
+//     position: 'fixed',
+//     top: 0,
+//     left: 0,
+//     right: 0,
+//     bottom: 0,
+//     backgroundColor: 'RGBA(0, 0, 0, .70)',
+//   },
+//   content: {
+//     top: '50%',
+//     left: '50%',
+//     right: 'auto',
+//     bottom: 'auto',
+//     marginRight: '-50%',
+//     transform: 'translate(-50%, -50%)',
+//     border: '1px solid #000',
+//   },
+// }
 
 const page = `
   <style type="text/css">
@@ -424,7 +424,7 @@ class Page extends React.Component {
           ))}
         </Helmet>
         <h1>New Information Request</h1>
-        <Modal
+        {/* <Modal
           isOpen={this.state.modalIsOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
@@ -442,7 +442,7 @@ class Page extends React.Component {
             after the break.
           </p>
           <button onClick={this.closeModal}>Close</button>
-        </Modal>
+        </Modal> */}
         <p
           id="helperBox"
           style={{ opacity: 0.7, fontSize: '0.8em', height: '2em', margin: 0 }}
