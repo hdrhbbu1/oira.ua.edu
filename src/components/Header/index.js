@@ -25,7 +25,6 @@ class Header extends React.Component {
                 href="http://oira.ua.edu/factbook"
                 target="_blank"
                 rel="noopener"
-                title="Factbook"
               >
                 {'Factbook'}
               </StyledAnchor>
